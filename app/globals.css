@@ -43,14 +43,14 @@ body {
   font-style: normal;
 }
 
-.container {
-  position: relative;
+a {
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 7px;
+  padding: 3px 9px 3px 9px;
 }
 
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+a:hover {
+  background-color: rgba(255,255,255,.5);
 }
+

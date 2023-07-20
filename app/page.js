@@ -7,9 +7,7 @@ export default async function Home() {
 
       {/* Background Image */}
 
-      <div
-        className="absolute inset-0"
-        styel={{ backgroundImage: `url('/../public/Night Sky-tommy-haugsveen+freepik.png')`, height: '400px' }}>
+      <div className="absolute inset-0">
         <Image
           src="/Night Sky-tommy-haugsveen+freepik.png"
           alt="Night Sky Background Image"

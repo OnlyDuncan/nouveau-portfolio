@@ -7,16 +7,10 @@ export default async function Home() {
 
       {/* Background Image */}
 
-      <div className="absolute inset-0">
-        <Image
-          src="/Night Sky-tommy-haugsveen+freepik.png"
-          alt="Night Sky Background Image"
-          fill
-          style={{
-            objectFit: "cover"
-          }}
-        />
-      </div>
+      <div 
+        className="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 text-center"
+        style={{ backgroundImage: url('/../public/Night Sky-tommy-haugsveen+freepik.png'), height: '400px' }}
+      />
 
       {/* Header and Navbar */}
 

@@ -9,7 +9,7 @@ export default async function Home() {
 
       <div className="absolute inset-0">
         <Image
-          src="/../public/Night Sky-tommy-haugsveen+freepik.png"
+          src="/Night Sky-tommy-haugsveen+freepik.png"
           alt="Night Sky Background Image"
           fill
           style={{

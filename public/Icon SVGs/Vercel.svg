@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.73441 27.73441">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #404355;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Contact_Modal" data-name="Contact Modal">
+    <g>
+      <circle class="cls-3" cx="13.8672" cy="13.8672" r="13.3672"/>
+      <circle class="cls-1" cx="13.8672" cy="13.65757" r="5.30827"/>
+      <polygon class="cls-2" points="13.8672 10.36738 10.94325 15.43183 16.79116 15.43183 13.8672 10.36738"/>
+    </g>
+  </g>
+</svg>

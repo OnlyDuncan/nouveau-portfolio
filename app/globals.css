@@ -54,3 +54,9 @@ a:hover {
   background-color: rgba(255,255,255,.5);
 }
 
+@media screen and (max-width: 300px) {
+  ul {
+    display: block;
+  };
+}
+

@@ -44,7 +44,7 @@ export default async function Home() {
             </div>
             <div>
               <h2
-              className="text-center text-white acuminLight mb-4"
+              className="flex text-center text-white acuminLight mb-4"
               style={{
                 fontSize: "35px"
               }}>
@@ -54,20 +54,20 @@ export default async function Home() {
             <br />
             <div id="navcontainer">
               <nav>
-                <ul className="flex">
-                  <li className="inline ml-2 mr-2">
+                <ul className="flex md:flex-row flex-col align-items-center">
+                  <li className="ml-2 mr-2">
                     <a href="#about" className="acuminMid text-white">About</a>
                   </li>
-                  <li className="inline ml-2 mr-2">
+                  <li className="ml-2 mr-2">
                     <a href="#design" className="acuminMid text-white">Design</a>
                   </li>
-                  <li className="inline ml-2 mr-2">
+                  <li className="ml-2 mr-2">
                     <a href="#projects" className="acuminMid text-white">Projects</a>
                   </li>
-                  <li className="inline ml-2 mr-2">
+                  <li className="ml-2 mr-2">
                     <a href="#skills" className="acuminMid text-white">Skills</a>
                   </li>
-                  <li className="inline ml-2 mr-2">
+                  <li className="ml-2 mr-2">
                     <a href="#contact" className="acuminMid text-white">Contact</a>
                   </li>
                 </ul>

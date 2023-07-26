@@ -25,6 +25,10 @@ body {
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
+.body {
+  overflow-y: hidden;
+}
+
 .sourceCode {
   font-family: "source-code-pro", monospace;
   font-weight: 400;
@@ -48,7 +52,8 @@ a {
   border: 2px solid white;
   border-radius: 7px;
   padding: 3px 9px 3px 9px;
-  width: 20%;
+  display: block;
+  width: 4.5em;
 }
 
 a:hover {

@@ -3,7 +3,7 @@ import { Text } from 'react';
 
 export default async function Home() {
   return (
-    <div className="relative h-screen">
+    <div className="body relative h-screen">
 
       {/* Background Image */}
 
@@ -51,7 +51,7 @@ export default async function Home() {
             <br />
             <div className="flex relative h-full justify-center">
               <nav>
-                <ul className="flex flex-col md:flex-row">
+                <ul className="text-center flex flex-col md:flex-row">
                   <li className="mb-5 md:mb-0 md:mr-2">
                     <a href="#about" className="acuminMid text-white">About</a>
                   </li>

@@ -32,22 +32,18 @@ export default async function Home() {
           </div>
           <div>
             <br />
-            <div>
-              <h1 
-              className="text-4xl md:text-5xl text-center text-white sourceCode" 
-              style={{
-                letterSpacing: "0.07em"
-              }}>
-                Duncan Payne
-              </h1>
-            </div>
-            <div>
-              <h2
-              className="text-3xl md:text-4xl flex text-center text-white acuminLight mb-4"
-              >
-                Designer and Full-Stack Developer
-              </h2>
-            </div>
+            <h1 
+            className="text-4xl md:text-5xl text-center text-white sourceCode" 
+            style={{
+              letterSpacing: "0.07em"
+            }}>
+              Duncan Payne
+            </h1>
+            <h2
+            className="text-3xl md:text-4xl flex text-center text-white acuminLight mb-4"
+            >
+              Designer and Full-Stack Developer
+            </h2>
             <br />
             <div className="flex relative h-full justify-center">
               <nav>

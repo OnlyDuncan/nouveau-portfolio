@@ -48,6 +48,7 @@ a {
   border: 2px solid white;
   border-radius: 7px;
   padding: 3px 9px 3px 9px;
+  width: 20%;
 }
 
 a:hover {

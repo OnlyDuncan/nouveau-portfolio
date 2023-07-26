@@ -13,7 +13,7 @@ export default async function Home() {
           alt="Night Sky Background Image"
           fill
           style={{
-            objectFit: "cover"
+            objectFit: "cover",
           }}
         />
       </div>
@@ -34,9 +34,8 @@ export default async function Home() {
             <br />
             <div>
               <h1 
-              className="text-center text-white sourceCode" 
+              className="text-4xl md:text-5xl text-center text-white sourceCode" 
               style={{
-                fontSize: "50px",
                 letterSpacing: "0.07em"
               }}>
                 Duncan Payne
@@ -44,30 +43,28 @@ export default async function Home() {
             </div>
             <div>
               <h2
-              className="flex text-center text-white acuminLight mb-4"
-              style={{
-                fontSize: "35px"
-              }}>
+              className="text-3xl md:text-4xl flex text-center text-white acuminLight mb-4"
+              >
                 Designer and Full-Stack Developer
               </h2>
             </div>
             <br />
-            <div id="navcontainer">
+            <div className="flex relative h-full justify-center">
               <nav>
-                <ul className="flex md:flex-row flex-col align-items-center">
-                  <li className="ml-2 mr-2">
+                <ul className="flex flex-col md:flex-row">
+                  <li className="mb-5 md:mb-0 md:mr-2">
                     <a href="#about" className="acuminMid text-white">About</a>
                   </li>
-                  <li className="ml-2 mr-2">
+                  <li className="mb-5 md:mb-0 md:ml-2 md:mr-2">
                     <a href="#design" className="acuminMid text-white">Design</a>
                   </li>
-                  <li className="ml-2 mr-2">
+                  <li className="mb-5 md:mb-0 md:ml-2 md:mr-2">
                     <a href="#projects" className="acuminMid text-white">Projects</a>
                   </li>
-                  <li className="ml-2 mr-2">
+                  <li className="mb-5 md:mb-0 md:ml-2 md:mr-2">
                     <a href="#skills" className="acuminMid text-white">Skills</a>
                   </li>
-                  <li className="ml-2 mr-2">
+                  <li className="md:ml-2">
                     <a href="#contact" className="acuminMid text-white">Contact</a>
                   </li>
                 </ul>

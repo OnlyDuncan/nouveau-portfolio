@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { AboutModal, DesignModal, ProjectsModal, SkillsModal, ContactModal } from '../components';
 import { Text } from 'react';
 
 export default async function Home() {
@@ -24,7 +25,7 @@ export default async function Home() {
         <header className="relative flex flex-col items-center justify-center h-full">
           <div>
             <Image
-              src="/Logo.svg"
+              src="/Other-Images/Logo.svg"
               alt="Logo"
               width={115}
               height={115}
@@ -32,15 +33,15 @@ export default async function Home() {
           </div>
           <div>
             <br />
-            <h1 
-            className="text-4xl md:text-5xl text-center text-white sourceCode" 
-            style={{
-              letterSpacing: "0.07em"
-            }}>
+            <h1
+              className="text-4xl md:text-5xl text-center text-white sourceCode"
+              style={{
+                letterSpacing: "0.07em"
+              }}>
               Duncan Payne
             </h1>
             <h2
-            className="text-3xl md:text-4xl flex text-center text-white acuminLight mb-4"
+              className="text-3xl md:text-4xl flex text-center text-white acuminLight mb-4"
             >
               Designer and Full-Stack Developer
             </h2>
@@ -49,19 +50,19 @@ export default async function Home() {
               <nav>
                 <ul className="text-center flex flex-col md:flex-row">
                   <li className="mb-5 md:mb-0 md:mr-2">
-                    <a href="#about" className="acuminMid text-white">About</a>
+                    <AboutModal />
                   </li>
                   <li className="mb-5 md:mb-0 md:ml-2 md:mr-2">
-                    <a href="#design" className="acuminMid text-white">Design</a>
+                    <DesignModal />
                   </li>
                   <li className="mb-5 md:mb-0 md:ml-2 md:mr-2">
-                    <a href="#projects" className="acuminMid text-white">Projects</a>
+                    <ProjectsModal />
                   </li>
                   <li className="mb-5 md:mb-0 md:ml-2 md:mr-2">
-                    <a href="#skills" className="acuminMid text-white">Skills</a>
+                    <SkillsModal />
                   </li>
                   <li className="md:ml-2">
-                    <a href="#contact" className="acuminMid text-white">Contact</a>
+                    <ContactModal />
                   </li>
                 </ul>
               </nav>

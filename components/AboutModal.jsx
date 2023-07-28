@@ -8,7 +8,9 @@ const AboutModal = () => {
     const [isOpen, setIsOpen] = useState(false);
     const styles = {
         overlay: {
-            backgroundColor: 'rgba(0, 0, 0, 0.4)'
+            backgroundColor: 'rgba(0, 0, 0, 0.4)',
+            overflowY: 'scroll',
+            overflowX: 'none'
         },
         content: {
             top: '50%',
@@ -20,6 +22,7 @@ const AboutModal = () => {
             backgroundColor: '#404355',
             width: '40rem',
             maxWidth: '90%',
+            maxHeight: '95vh',
             position: 'relative'
         }
     }
@@ -28,9 +31,9 @@ const AboutModal = () => {
         <div>
             <button className="nav-button acuminMid text-white" onClick={() => setIsOpen(true)}>About</button>
             <Modal isOpen={isOpen} onRequestClose={() => setIsOpen(false)} style={styles}>
-                <div className="modal-border flex flex-col">
-                    <div className="float-right">
-                        <button onClick={() => setIsOpen(false)}>
+                <div className="modal-border flex-col">
+                    <div className="flex">
+                        <button onClick={() => setIsOpen(false)} className="mr-0 ml-auto p-3">
                             <Image
                                 src="/Other-Images/Close.svg"
                                 width={30}
@@ -40,11 +43,12 @@ const AboutModal = () => {
                     </div>
                     <br />
                     <h1 
-                        className="sourceCode text-5xl text-center justify-center text-white"
+                        className="sourceCode text-4xl text-center justify-center text-white"
                         style={{ letterSpacing: "0.07em" }}
                     >
                         About Me
                     </h1>
+                    <br />
                     <div className="flex justify-center">
                         <Image
                             src="/Other-Images/Profile.png"
@@ -55,7 +59,8 @@ const AboutModal = () => {
                             alt="Photo of Myself"
                         />
                     </div>
-                    <p className="acuminMid text-center text-white">
+                    <br />
+                    <p className="acuminMid flex text-center text-white pb-10 px-10">
                         I'm a multimedia artist, designer, and web developer currently residing in Oklahoma City, Oklahoma.
                         After graduating from the University of Science and Arts of Oklahoma in 2020 with a BFA in Sculpture and Expanded Media,
                         I spent 2022 taking several of NuCamp's software development bootcamps. As a designer and web developer

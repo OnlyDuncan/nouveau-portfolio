@@ -67,12 +67,6 @@ body {
 }
 
 .photo-frame {
-  border: 2px solid white;
-}
-
-@media screen and (max-width: 300px) {
-  ul {
-    display: block;
-  };
+  border: 5px solid white;
 }
 

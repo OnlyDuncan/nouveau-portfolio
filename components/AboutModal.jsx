@@ -9,8 +9,7 @@ const AboutModal = () => {
     const styles = {
         overlay: {
             backgroundColor: 'rgba(0, 0, 0, 0.4)',
-            overflowY: 'scroll',
-            overflowX: 'none'
+            overflowY: 'scroll'
         },
         content: {
             top: '50%',

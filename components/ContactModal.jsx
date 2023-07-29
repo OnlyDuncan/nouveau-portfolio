@@ -52,20 +52,20 @@ const ContactModal = () => {
                         For business inquiries feel free to contact me using the number or email provided below.
                     </p>
                     <br />
-                    <div className="flex justify-center">
-                        <h2 className="acuminMid text-2xl text-center text-white px-10">
+                    <div className="flex justify-center flex-wrap h-8">
+                        <h2 className="acuminMid text-xl md:text-2xl text-center text-white">
                             Phone:&nbsp;
-                            <a href="tel:1-405-308-9609" className="underline">1-405-308-9609</a>
                         </h2>
+                        <a href="tel:1-405-308-9609" className="acuminMid text-xl md:text-2xl text-center text-white underline">1-405-308-9609</a>
                     </div>
-                    <div className="flex justify-center">
-                        <h2 className="acuminMid text-2xl text-center text-white px-10">
+                    <div className="flex justify-center flex-wrap pt-5">
+                        <h2 className="acuminMid text-xl md:text-2xl text-center text-white">
                             Email:&nbsp;
-                            <a href="mailto: Duncan.C.Payne@gmail.com" className="underline">Duncan.C.Payne@gmail.com</a>
                         </h2>
+                        <a href="mailto: Duncan.C.Payne@gmail.com" className="acuminMid text-xl md:text-2xl text-center text-white underline">Duncan.C.Payne@gmail.com</a>
                     </div>
                     <br />
-                    <div className="flex justify-center">
+                    <div className="flex justify-center pt-52">
                         <a href="https://vercel.com/onlyduncan" target="_blank">
                             <Image
                                 src="/Icon-SVGs/Vercel.svg"

@@ -50,7 +50,7 @@ const AboutModal = () => {
                     <br />
                     <div className="flex justify-center">
                         <Image
-                            src="/Other-Images/Profile.png"
+                            src="/Other-Images/Profile.webp"
                             width="0"
                             height="0"
                             sizes="100vw"

@@ -70,3 +70,8 @@ body {
   border: 5px solid white;
 }
 
+@media screen and (max-width: 500px) {
+  .icons-scale {
+    transform: scale(0.73)
+  }
+}

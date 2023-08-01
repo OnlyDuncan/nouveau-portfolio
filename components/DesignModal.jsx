@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import Image from 'next/image';
+import { GraphicDesignSlider, UiUxSlider, IllustrationSlider } from './';
 
 const DesignModal = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -48,6 +49,44 @@ const DesignModal = () => {
                         Design
                     </h1>
                     <br />
+                    <div className="flex justify-center">
+                        <p className="acuminMid flex text-center text-white pb-10 px-10">
+                            Welcome to my design page! Below are several different slideshows. To go to different slides, slide to the left or right, or select the arrows on the side. Click on an image to see more information.
+                        </p>
+                    </div>
+                    <div className="flex-col">
+                        <div className="flex justify-center">
+                            <h2 className="sourceCode text-3xl text-center justify-center text-white">
+                                Graphic Design
+                            </h2>
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <GraphicDesignSlider />
+                        </div>
+                    </div>
+                    <div className="flex-col">
+                        <div className="flex justify-center">
+                            <h2 className="sourceCode text-3xl text-center justify-center text-white">
+                                UI/UX Design
+                            </h2>
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <UiUxSlider />
+                        </div>
+                    </div>
+                    <div className="flex-col">
+                        <div className="flex justify-center">
+                            <h2 className="sourceCode text-3xl text-center justify-center text-white">
+                                Illustration
+                            </h2>
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <IllustrationSlider />
+                        </div>
+                    </div>
                 </div>
             </Modal>
         </div>

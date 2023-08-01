@@ -65,6 +65,7 @@ const DesignModal = () => {
                             <GraphicDesignSlider />
                         </div>
                     </div>
+                    <br />
                     <div className="flex-col">
                         <div className="flex justify-center">
                             <h2 className="sourceCode text-3xl text-center justify-center text-white">
@@ -76,7 +77,8 @@ const DesignModal = () => {
                             <UiUxSlider />
                         </div>
                     </div>
-                    <div className="flex-col">
+                    <br />
+                    <div className="flex-col pb-10">
                         <div className="flex justify-center">
                             <h2 className="sourceCode text-3xl text-center justify-center text-white">
                                 Illustration

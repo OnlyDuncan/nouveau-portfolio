@@ -78,10 +78,30 @@ body {
   .project-image {
     width: 250px;
   }
+
+  [class^="number-slide"],
+  [class*="number-slide"] {
+    height: 200px;
+    width: 250px;
+  }
+
+  .navigation-wrapper {
+    width: 250px;
+  }
 }
 
 @media screen and (min-width: 500px) and (max-width: 650px ) {
   .project-image {
+    width: 350px;
+  }
+
+  [class^="number-slide"],
+  [class*="number-slide"] {
+    height: 300px;
+    width: 350px;
+  }
+
+  .navigation-wrapper {
     width: 350px;
   }
 }
@@ -90,9 +110,17 @@ body {
   .project-image {
     width: 500px;
   }
+
+  [class^="number-slide"],
+  [class*="number-slide"] {
+    height: 400px;
+    width: 450px;
+  }
+
+  .navigation-wrapper {
+    width: 450px;
+  }
 }
-
-
 
 
 
@@ -104,8 +132,15 @@ body {
 
 /* Keen Slider */
 
+body {
+  margin: 0;
+  font-family: "inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 [class^="number-slide"],
-[class*=" number-slide"] {
+[class*="number-slide"] {
   background: grey;
   display: flex;
   align-items: center;
@@ -113,7 +148,6 @@ body {
   font-size: 50px;
   color: #fff;
   font-weight: 500;
-  height: 300px;
   max-height: 100vh;
 }
 
@@ -177,31 +211,6 @@ body {
 
 .navigation-wrapper {
   position: relative;
-}
-
-.dots {
-  display: flex;
-  padding: 10px 0;
-  justify-content: center;
-}
-
-.dot {
-  border: none;
-  width: 10px;
-  height: 10px;
-  background: #c5c5c5;
-  border-radius: 50%;
-  margin: 0 5px;
-  padding: 5px;
-  cursor: pointer;
-}
-
-.dot:focus {
-  outline: none;
-}
-
-.dot.active {
-  background: #000;
 }
 
 .arrow {

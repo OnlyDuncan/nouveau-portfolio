@@ -72,6 +72,22 @@ body {
 
 @media screen and (max-width: 500px) {
   .icons-scale {
-    transform: scale(0.73)
+    transform: scale(0.73);
+  }
+
+  .project-image {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px ) {
+  .project-image {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .project-image {
+    width: 500px;
   }
 }

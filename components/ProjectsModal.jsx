@@ -48,6 +48,100 @@ const ProjectsModal = () => {
                         Projects
                     </h1>
                     <br />
+                    <div className="flex-col">
+                        <div className="flex justify-center">
+                            <p className="acuminMid flex text-center text-white pb-10 px-10">
+                                In addition to this website, which I made using React and Next, some other projects I've worked on include:
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex-col">
+                        <div className="flex justify-center">
+                            <h2 className="sourceCode text-3xl text-center justify-center text-white">
+                                Dreameater Sake
+                            </h2>
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <Image
+                                src="/Project-Images/Sake-Site.webp"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="project-image photo-frame"
+                                alt="Photo of Sake Website"
+                            />
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <a href="https://github.com/OnlyDuncan/Dream-Eater-Sake" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
+                        </div>
+                        <div className="flex justify-center">
+                            <a href="https://dream-eater-sake.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
+                        </div>
+                        <br />
+                        <p className="acuminMid flex text-center text-white pb-10 px-10">
+                            This front end project is a website for a fake brand of sake. The brand is inspired by a creature from Japanese myth known as a Baku that eats dreams. I am doing the UI/UX design for the website, as well as making many of the graphics, and writing the code for it. I also am considering eventually adding a database component. It was built with React using HTML, CSS, and JavaScript.
+                        </p>
+                    </div>
+                    <div className="flex-col">
+                        <div className="flex justify-center">
+                            <h2 className="sourceCode text-3xl text-center justify-center text-white">
+                                Hypnodrome
+                            </h2>
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <Image
+                                src="/Project-Images/Youtube-Clone.webp"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="project-image photo-frame"
+                                alt="Photo of Sake Website"
+                            />
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <a href="https://github.com/OnlyDuncan/Hypnodrome" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
+                        </div>
+                        <div className="flex justify-center">
+                            <a href="https://hypnodrome.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
+                        </div>
+                        <br />
+                        <p className="acuminMid flex text-center text-white pb-10 px-10">
+                            This full stack project is made using React and MaterialUI, and utilizes the Youtube V3 API by ytdlfree. It's a video streaming site much like YouTube. I plan on improving the UI and focusing on the more stylistic aspects of the site in the future.
+                        </p>
+                    </div>
+                    <div className="flex-col">
+                        <div className="flex justify-center">
+                            <h2 className="sourceCode text-3xl text-center justify-center text-white">
+                                Art Portfolio Website
+                            </h2>
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <Image
+                                src="/Project-Images/Portfolio-Site.webp"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="project-image photo-frame"
+                                alt="Photo of Sake Website"
+                            />
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <a href="https://github.com/OnlyDuncan/Bootcamp-Art-Portfolio-Project-React" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
+                        </div>
+                        <div className="flex justify-center">
+                            <a href="https://bootcamp-art-portfolio-project-react.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
+                        </div>
+                        <br />
+                        <p className="acuminMid flex text-center text-white pb-10 px-10">
+                            This is a front end project my teammate Matthew and I made while taking several of NuCamps software engineering bootcamps in 2022. During the different courses we actually made three versions of this site. First, we made it with Bootstrap, then with React, and finally with React Native. My favorite of the iterations is the React one, so that's the one shown below. It also uses Redux.
+                        </p>
+                    </div>
                 </div>
             </Modal>
         </div>

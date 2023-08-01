@@ -51,7 +51,7 @@ const ProjectsModal = () => {
                     <div className="flex-col">
                         <div className="flex justify-center">
                             <p className="acuminMid flex text-center text-white pb-10 px-10">
-                                In addition to this website, which I made using React and Next, some other projects I've worked on include:
+                                In addition to this website, which was built using React, Next, and Tailwind, some other projects I've worked on include:
                             </p>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ const ProjectsModal = () => {
                         </div>
                         <br />
                         <p className="acuminMid flex text-center text-white pb-10 px-10">
-                            This front end project is a website for a fake brand of sake. The brand is inspired by a creature from Japanese myth known as a Baku that eats dreams. I am doing the UI/UX design for the website, as well as making many of the graphics, and writing the code for it. I also am considering eventually adding a database component. It was built with React using HTML, CSS, and JavaScript.
+                            This front end project is a website for a fake brand of sake. The brand is inspired by a creature from Japanese myth known as a Baku that eats dreams. I am doing the UI/UX design for the website, as well as making many of the graphics, and writing the code for it. I also am considering eventually adding a database component. It was built with React.
                         </p>
                     </div>
                     <div className="flex-col">
@@ -110,7 +110,7 @@ const ProjectsModal = () => {
                         </div>
                         <br />
                         <p className="acuminMid flex text-center text-white pb-10 px-10">
-                            This full stack project is made using React and MaterialUI, and utilizes the Youtube V3 API by ytdlfree. It's a video streaming site much like YouTube. I plan on improving the UI and focusing on the more stylistic aspects of the site in the future.
+                            This full stack project is a video streaming site much like YouTube. I plan on improving the UI and focusing on the more stylistic aspects of the site in the future. It was built using React and MaterialUI, and utilizes the Youtube V3 API by ytdlfree.
                         </p>
                     </div>
                     <div className="flex-col">
@@ -139,7 +139,7 @@ const ProjectsModal = () => {
                         </div>
                         <br />
                         <p className="acuminMid flex text-center text-white pb-10 px-10">
-                            This is a front end project my teammate Matthew and I made while taking several of NuCamps software engineering bootcamps in 2022. During the different courses we actually made three versions of this site. First, we made it with Bootstrap, then with React, and finally with React Native. My favorite of the iterations is the React one, so that's the one shown below. It also uses Redux.
+                            This is a front end project my teammate Matthew and I made while taking several of NuCamps software engineering bootcamps in 2022. During the different courses we actually made three versions of this site. This version was built using React and Redux.
                         </p>
                     </div>
                 </div>

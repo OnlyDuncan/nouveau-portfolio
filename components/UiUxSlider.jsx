@@ -40,7 +40,7 @@ const UiUxSlider = () => {
                         </div>
                         <div className="keen-slider__slide number-slide3">
                             <Image
-                                src="/Design-Images/UiUx/DreameaterLoFiWireframe.webp"
+                                src="/Design-Images/UiUx/DreameaterLofiWireframe.webp"
                                 fill
                                 className="object-contain"
                                 style={{ backgroundColor: "#deb3df" }}

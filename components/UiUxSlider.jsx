@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import { useKeenSlider } from "keen-slider/react";
 
 const UiUxSlider = () => {
@@ -18,37 +19,58 @@ const UiUxSlider = () => {
 
     return (
         <>
-            <div className="navigation-wrapper">
-                <div ref={sliderRef} className="keen-slider">
-                    <div className="keen-slider__slide number-slide1">1</div>
-                    <div className="keen-slider__slide number-slide2">2</div>
-                    <div className="keen-slider__slide number-slide3">3</div>
-                    <div className="keen-slider__slide number-slide4">4</div>
-                    <div className="keen-slider__slide number-slide5">5</div>
-                    <div className="keen-slider__slide number-slide6">6</div>
-                </div>
-                {loaded && instanceRef.current && (
-                    <>
-                        <Arrow
-                            left
-                            onClick={(e) =>
-                                e.stopPropagation() || instanceRef.current?.prev()
-                            }
-                            disabled={currentSlide === 0}
-                        />
+            <div className="photo-frame">
+                <div className="navigation-wrapper">
+                    <div ref={sliderRef} className="keen-slider">
+                        <div className="keen-slider__slide number-slide1">
+                            <Image
+                                src="/Design-Images/UiUx/NouveauPortfolioUiUx.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#88e0d9" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide2">
+                            <Image
+                                src="/Design-Images/UiUx/DreameaterHifiDesign.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#89c2df" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide3">
+                            <Image
+                                src="/Design-Images/UiUx/DreameaterLoFiWireframe.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#deb3df" }}
+                            />
+                        </div>
+                    </div>
+                    {loaded && instanceRef.current && (
+                        <>
+                            <Arrow
+                                left
+                                onClick={(e) =>
+                                    e.stopPropagation() || instanceRef.current?.prev()
+                                }
+                                disabled={currentSlide === 0}
+                            />
 
-                        <Arrow
-                            onClick={(e) =>
-                                e.stopPropagation() || instanceRef.current?.next()
-                            }
-                            disabled={
-                                currentSlide ===
-                                instanceRef.current.track.details.slides.length - 1
-                            }
-                        />
-                    </>
-                )}
+                            <Arrow
+                                onClick={(e) =>
+                                    e.stopPropagation() || instanceRef.current?.next()
+                                }
+                                disabled={
+                                    currentSlide ===
+                                    instanceRef.current.track.details.slides.length - 1
+                                }
+                            />
+                        </>
+                    )}
+                </div>
             </div>
+
             {loaded && instanceRef.current && (
                 <div className="dots">
                     {[

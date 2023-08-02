@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { AboutModal, DesignModal, ProjectsModal, SkillsModal, ContactModal } from '../components';
-import { Text } from 'react';
+import "keen-slider/keen-slider.min.css";
 
 export default async function Home() {
   return (

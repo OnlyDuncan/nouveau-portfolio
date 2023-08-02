@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import { useKeenSlider } from "keen-slider/react";
 
 const IllustrationSlider = () => {
@@ -18,37 +19,58 @@ const IllustrationSlider = () => {
 
     return (
         <>
-            <div className="navigation-wrapper">
-                <div ref={sliderRef} className="keen-slider">
-                    <div className="keen-slider__slide number-slide1">1</div>
-                    <div className="keen-slider__slide number-slide2">2</div>
-                    <div className="keen-slider__slide number-slide3">3</div>
-                    <div className="keen-slider__slide number-slide4">4</div>
-                    <div className="keen-slider__slide number-slide5">5</div>
-                    <div className="keen-slider__slide number-slide6">6</div>
-                </div>
-                {loaded && instanceRef.current && (
-                    <>
-                        <Arrow
-                            left
-                            onClick={(e) =>
-                                e.stopPropagation() || instanceRef.current?.prev()
-                            }
-                            disabled={currentSlide === 0}
-                        />
+            <div className="photo-frame">
+                <div className="navigation-wrapper">
+                    <div ref={sliderRef} className="keen-slider">
+                        <div className="keen-slider__slide number-slide1">
+                            <Image
+                                src="/Design-Images/Illustration/InfernoCanto3.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#80c894" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide2">
+                            <Image
+                                src="/Design-Images/Illustration/InfernoCanto2.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#af8bc0" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide3">
+                            <Image
+                                src="/Design-Images/Illustration/InfernoCanto1.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#46b7ae" }}
+                            />
+                        </div>
+                    </div>
+                    {loaded && instanceRef.current && (
+                        <>
+                            <Arrow
+                                left
+                                onClick={(e) =>
+                                    e.stopPropagation() || instanceRef.current?.prev()
+                                }
+                                disabled={currentSlide === 0}
+                            />
 
-                        <Arrow
-                            onClick={(e) =>
-                                e.stopPropagation() || instanceRef.current?.next()
-                            }
-                            disabled={
-                                currentSlide ===
-                                instanceRef.current.track.details.slides.length - 1
-                            }
-                        />
-                    </>
-                )}
+                            <Arrow
+                                onClick={(e) =>
+                                    e.stopPropagation() || instanceRef.current?.next()
+                                }
+                                disabled={
+                                    currentSlide ===
+                                    instanceRef.current.track.details.slides.length - 1
+                                }
+                            />
+                        </>
+                    )}
+                </div>
             </div>
+
             {loaded && instanceRef.current && (
                 <div className="dots">
                     {[

@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useState } from "react"
-import { useKeenSlider } from "keen-slider/react"
-import "keen-slider/keen-slider.min.css"
+import React, { useState } from "react";
+import Image from "next/image";
+import { useKeenSlider } from "keen-slider/react";
 
 const GraphicDesignSlider = () => {
     const [currentSlide, setCurrentSlide] = useState(0)
@@ -19,37 +19,122 @@ const GraphicDesignSlider = () => {
 
     return (
         <>
-            <div className="navigation-wrapper">
-                <div ref={sliderRef} className="keen-slider">
-                    <div className="keen-slider__slide number-slide1">1</div>
-                    <div className="keen-slider__slide number-slide2">2</div>
-                    <div className="keen-slider__slide number-slide3">3</div>
-                    <div className="keen-slider__slide number-slide4">4</div>
-                    <div className="keen-slider__slide number-slide5">5</div>
-                    <div className="keen-slider__slide number-slide6">6</div>
-                </div>
-                {loaded && instanceRef.current && (
-                    <>
-                        <Arrow
-                            left
-                            onClick={(e) =>
-                                e.stopPropagation() || instanceRef.current?.prev()
-                            }
-                            disabled={currentSlide === 0}
-                        />
+            <div className="photo-frame">
+                <div className="navigation-wrapper">
+                    <div ref={sliderRef} className="keen-slider">
+                        <div className="keen-slider__slide number-slide1">
+                            <Image
+                                src="/Design-Images/Graphic-Design/DreameaterLogo.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#462466" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide2">
+                            <Image
+                                src="/Design-Images/Graphic-Design/DreameaterHero.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#99f0e6" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide3">
+                            <Image
+                                src="/Design-Images/Graphic-Design/SakeCanAll3.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#3a163e" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide4">
+                            <Image
+                                src="/Design-Images/Graphic-Design/MugMockup.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#3a163e" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide5">
+                            <Image
+                                src="/Design-Images/Graphic-Design/ShirtMockup.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#3a163e" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide6">
+                            <Image
+                                src="/Design-Images/Graphic-Design/SweetDreams.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#da7ee4" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide7">
+                            <Image
+                                src="/Design-Images/Graphic-Design/StrangeJourney.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#8272b7" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide8">
+                            <Image
+                                src="/Design-Images/Graphic-Design/DarkNightmares.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#312d45" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide9">
+                            <Image
+                                src="/Design-Images/Graphic-Design/Abattoir.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#46b7ae" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide10">
+                            <Image
+                                src="/Design-Images/Graphic-Design/TheTelltaleHeart.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#6bc4df" }}
+                            />
+                        </div>
+                        <div className="keen-slider__slide number-slide11">
+                            <Image
+                                src="/Design-Images/Graphic-Design/TheMasqueOfTheRedDeath.webp"
+                                fill
+                                className="object-contain"
+                                style={{ backgroundColor: "#da4d5d" }}
+                            />
+                        </div>
+                    </div>
+                    {loaded && instanceRef.current && (
+                        <>
+                            <Arrow
+                                left
+                                onClick={(e) =>
+                                    e.stopPropagation() || instanceRef.current?.prev()
+                                }
+                                disabled={currentSlide === 0}
+                            />
 
-                        <Arrow
-                            onClick={(e) =>
-                                e.stopPropagation() || instanceRef.current?.next()
-                            }
-                            disabled={
-                                currentSlide ===
-                                instanceRef.current.track.details.slides.length - 1
-                            }
-                        />
-                    </>
-                )}
+                            <Arrow
+                                onClick={(e) =>
+                                    e.stopPropagation() || instanceRef.current?.next()
+                                }
+                                disabled={
+                                    currentSlide ===
+                                    instanceRef.current.track.details.slides.length - 1
+                                }
+                            />
+                        </>
+                    )}
+                </div>
             </div>
+
             {loaded && instanceRef.current && (
                 <div className="dots">
                     {[

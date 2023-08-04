@@ -57,7 +57,7 @@ body {
 }
 
 .nav-button:hover {
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255, 255, 255, .5);
 }
 
 .modal-border {
@@ -81,7 +81,7 @@ body {
 
   [class^="number-slide"],
   [class*="number-slide"] {
-    height: 200px;
+    height: "full";
     width: 250px;
   }
 
@@ -90,14 +90,14 @@ body {
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 650px ) {
+@media screen and (min-width: 500px) and (max-width: 650px) {
   .project-image {
     width: 350px;
   }
 
   [class^="number-slide"],
   [class*="number-slide"] {
-    height: 300px;
+    height: "full";
     width: 350px;
   }
 
@@ -113,13 +113,17 @@ body {
 
   [class^="number-slide"],
   [class*="number-slide"] {
-    height: 400px;
+    height: "full";
     width: 450px;
   }
 
   .navigation-wrapper {
     width: 450px;
   }
+}
+
+.image-modal {
+  width: 40rem;
 }
 
 

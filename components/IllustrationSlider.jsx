@@ -22,29 +22,50 @@ const IllustrationSlider = () => {
             <div className="photo-frame">
                 <div className="navigation-wrapper">
                     <div ref={sliderRef} className="keen-slider">
-                        <div className="keen-slider__slide number-slide1">
+                        <div className="keen-slider__slide number-slide1 flex-col object-contain">
                             <Image
                                 src="/Design-Images/Illustration/InfernoCanto3.webp"
-                                fill
-                                className="object-contain"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="object-contain image-modal"
                                 style={{ backgroundColor: "#80c894" }}
                             />
+                            <div className="bg-white flex justify-center w-full h-full">
+                                <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
+                                    Divine Comedy, Inferno, Canto 3
+                                </p>
+                            </div>
                         </div>
-                        <div className="keen-slider__slide number-slide2">
+                        <div className="keen-slider__slide number-slide2 flex-col object-contain">
                             <Image
                                 src="/Design-Images/Illustration/InfernoCanto2.webp"
-                                fill
-                                className="object-contain"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="object-contain image-modal"
                                 style={{ backgroundColor: "#af8bc0" }}
                             />
+                            <div className="bg-white flex justify-center w-full h-full">
+                                <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
+                                    Divine Comedy, Inferno, Canto 2
+                                </p>
+                            </div>
                         </div>
-                        <div className="keen-slider__slide number-slide3">
+                        <div className="keen-slider__slide number-slide3 flex-col object-contain">
                             <Image
                                 src="/Design-Images/Illustration/InfernoCanto1.webp"
-                                fill
-                                className="object-contain"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="object-contain image-modal"
                                 style={{ backgroundColor: "#46b7ae" }}
                             />
+                            <div className="bg-white flex justify-center w-full h-full">
+                                <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
+                                    Divine Comedy, Inferno, Canto 1
+                                </p>
+                            </div>
                         </div>
                     </div>
                     {loaded && instanceRef.current && (

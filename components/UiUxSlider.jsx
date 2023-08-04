@@ -22,29 +22,50 @@ const UiUxSlider = () => {
             <div className="photo-frame">
                 <div className="navigation-wrapper">
                     <div ref={sliderRef} className="keen-slider">
-                        <div className="keen-slider__slide number-slide1">
+                        <div className="keen-slider__slide number-slide1 flex-col object-contain">
                             <Image
                                 src="/Design-Images/UiUx/NouveauPortfolioUiUx.webp"
-                                fill
-                                className="object-contain"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="object-contain image-modal"
                                 style={{ backgroundColor: "#88e0d9" }}
                             />
+                            <div className="bg-white flex justify-center w-full h-full">
+                                <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
+                                    Mockup Design for Software Development and Design Portfolio Site
+                                </p>
+                            </div>
                         </div>
-                        <div className="keen-slider__slide number-slide2">
+                        <div className="keen-slider__slide number-slide2 flex-col object-contain">
                             <Image
                                 src="/Design-Images/UiUx/DreameaterHifiDesign.webp"
-                                fill
-                                className="object-contain"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="object-contain image-modal"
                                 style={{ backgroundColor: "#89c2df" }}
                             />
+                            <div className="bg-white flex justify-center w-full h-full">
+                                <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
+                                    Mockup Design for Dreameater Sake Website
+                                </p>
+                            </div>
                         </div>
-                        <div className="keen-slider__slide number-slide3">
+                        <div className="keen-slider__slide number-slide3 flex-col object-contain">
                             <Image
                                 src="/Design-Images/UiUx/DreameaterLofiWireframe.webp"
-                                fill
-                                className="object-contain"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="object-contain image-modal"
                                 style={{ backgroundColor: "#deb3df" }}
                             />
+                            <div className="bg-white flex justify-center w-full h-full">
+                                <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
+                                    Wireframe for Dreameater Sake Website
+                                </p>
+                            </div>
                         </div>
                     </div>
                     {loaded && instanceRef.current && (

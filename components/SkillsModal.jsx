@@ -179,15 +179,15 @@ const SkillsModal = () => {
                         <div className="flex justify-center">
                             <Image
                                 src="/Icon-SVGs/Node.svg"
-                                width={30}
-                                height={30}
-                                className="mr-1"
+                                width={25}
+                                height={25}
+                                className="mr-1 -translate-x-2"
                             />
                             <Image
                                 src="/Icon-SVGs/Tailwind.svg"
                                 width={30}
                                 height={30}
-                                className="mx-1"
+                                className="mx-1 -translate-x-1"
                             />
                             <Image
                                 src="/Icon-SVGs/Sass.svg"
@@ -211,31 +211,31 @@ const SkillsModal = () => {
                                 src="/Icon-SVGs/Git.svg"
                                 width={30}
                                 height={30}
-                                className="mx-1"
+                                className="mx-1 translate-x-1"
                             />
                             <Image
                                 src="/Icon-SVGs/Illustrator.svg"
                                 width={30}
                                 height={30}
-                                className="mx-1"
+                                className="mx-1 translate-x-2"
                             />
                             <Image
                                 src="/Icon-SVGs/Xd.svg"
                                 width={30}
                                 height={30}
-                                className="mx-1"
+                                className="mx-1 translate-x-2"
                             />
                             <Image
                                 src="/Icon-SVGs/Photoshop.svg"
                                 width={30}
                                 height={30}
-                                className="mx-1"
+                                className="mx-1 translate-x-2"
                             />
                             <Image
                                 src="/Icon-SVGs/Blender.svg"
                                 width={30}
                                 height={30}
-                                className="ml-1"
+                                className="ml-1 translate-x-2"
                             />
                         </div>
                     </div>

@@ -1,3 +1,22 @@
+# New Software Development and Design Portfolio
+
+## Table Of Contents
+* [General Info](#general-info)
+* [Technologies](#technologies)
+* [Project Status](#project-status)
+* [Planned Changes](#planned-changes)
+* [Setup](#setup)
+
+## General Info
+
+## Technologies
+
+## Project Status
+
+## Planned Changes
+
+## Setup
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

@@ -96,7 +96,7 @@ const ProjectsModal = () => {
                                 height={0}
                                 sizes="100vw"
                                 className="project-image photo-frame"
-                                alt="Photo of Sake Website"
+                                alt="Photo of Youtube Clone Website"
                             />
                         </div>
                         <br />
@@ -125,7 +125,7 @@ const ProjectsModal = () => {
                                 height={0}
                                 sizes="100vw"
                                 className="project-image photo-frame"
-                                alt="Photo of Sake Website"
+                                alt="Photo of Art Website"
                             />
                         </div>
                         <br />

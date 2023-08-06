@@ -49,15 +49,9 @@ const ContactModal = () => {
                     </h1>
                     <br />
                     <p className="acuminMid flex text-center text-white pb-10 px-10">
-                        For business inquiries feel free to contact me using the number or email provided below.
+                        For business inquiries feel free to contact me using the email provided below.
                     </p>
                     <br />
-                    <div className="flex justify-center flex-wrap h-8">
-                        <h2 className="acuminMid text-xl md:text-2xl text-center text-white">
-                            Phone:&nbsp;
-                        </h2>
-                        <a href="tel:1-405-308-9609" className="acuminMid text-xl md:text-2xl text-center text-white underline">1-405-308-9609</a>
-                    </div>
                     <div className="flex justify-center flex-wrap pt-5">
                         <h2 className="acuminMid text-xl md:text-2xl text-center text-white">
                             Email:&nbsp;

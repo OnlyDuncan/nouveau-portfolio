@@ -91,7 +91,7 @@ const ProjectsModal = () => {
                         <br />
                         <div className="flex justify-center">
                             <Image
-                                src="/Project-Images/Youtube-Clone.webp"
+                                src="/Project-Images/Hypnodrome.webp"
                                 width={0}
                                 height={0}
                                 sizes="100vw"

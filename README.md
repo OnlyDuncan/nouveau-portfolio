@@ -16,7 +16,7 @@ Next 13.4.10
 TailwindCSS 3.3.3
 
 ## Project Status
-Complete
+Complete for now.
 
 ## Planned Changes
 Room for Improvement:

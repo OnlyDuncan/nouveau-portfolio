@@ -108,7 +108,7 @@ const ProjectsModal = () => {
                         </div>
                         <br />
                         <p className="acuminMid flex text-center text-white pb-10 px-10">
-                            This full stack project is a video streaming site much like YouTube. I plan on improving the UI and focusing on the more stylistic aspects of the site in the future. It was built using React and MaterialUI, and utilizes the Youtube V3 API by ytdlfree.
+                            This full stack project is a video streaming site much like YouTube. It was built using React, MaterialUI, and Tailwind, and utilizes the Youtube V3 API by ytdlfree.
                         </p>
                     </div>
                     <div className="flex-col">

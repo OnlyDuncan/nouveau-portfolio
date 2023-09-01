@@ -39,6 +39,36 @@ const UiUxSlider = () => {
                         </div>
                         <div className="keen-slider__slide number-slide2 flex-col object-contain">
                             <Image
+                                src="/Design-Images/UiUx/ArtPortfolioDesign.webp"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="object-contain image-modal"
+                                style={{ backgroundColor: "#e394f7" }}
+                            />
+                            <div className="bg-white flex justify-center w-full h-full">
+                                <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
+                                    Mockup Design for Art Portfolio Website
+                                </p>
+                            </div>
+                        </div>
+                        <div className="keen-slider__slide number-slide3 flex-col object-contain">
+                            <Image
+                                src="/Design-Images/UiUx/HypnodromeDesign.webp"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="object-contain image-modal"
+                                style={{ backgroundColor: "#6bb4de" }}
+                            />
+                            <div className="bg-white flex justify-center w-full h-full">
+                                <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
+                                    Mockup Design for Hypnodrome Website
+                                </p>
+                            </div>
+                        </div>
+                        <div className="keen-slider__slide number-slide4 flex-col object-contain">
+                            <Image
                                 src="/Design-Images/UiUx/DreameaterHifiDesign.webp"
                                 width={0}
                                 height={0}
@@ -52,7 +82,7 @@ const UiUxSlider = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="keen-slider__slide number-slide3 flex-col object-contain">
+                        <div className="keen-slider__slide number-slide5 flex-col object-contain">
                             <Image
                                 src="/Design-Images/UiUx/DreameaterLofiWireframe.webp"
                                 width={0}

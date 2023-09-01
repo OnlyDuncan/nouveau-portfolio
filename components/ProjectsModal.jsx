@@ -137,7 +137,8 @@ const ProjectsModal = () => {
                         </div>
                         <br />
                         <p className="acuminMid flex text-center text-white pb-10 px-10">
-                            This is a complete remake of a project my teammate Matthew and I made while taking several of NuCamps software engineering bootcamps in 2022. During the different courses we actually made three versions of this site. This version was made using React, Next, Tailwind, Material UI, and Redux. It's a portfolio website for artwork.
+                            This is a complete remake of a project my teammate Matthew and I made while taking several of NuCamps software engineering bootcamps in 2022.
+                            This was made using React, Next, Tailwind, Material UI, and Redux. It's a portfolio website for artwork.
                         </p>
                     </div>
                 </div>

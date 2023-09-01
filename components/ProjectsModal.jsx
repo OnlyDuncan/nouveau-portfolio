@@ -130,10 +130,10 @@ const ProjectsModal = () => {
                         </div>
                         <br />
                         <div className="flex justify-center">
-                            <a href="https://github.com/OnlyDuncan/Bootcamp-Art-Portfolio-Project-React" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
+                            <a href="https://github.com/OnlyDuncan/nouveau-art-portfolio" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
                         </div>
                         <div className="flex justify-center">
-                            <a href="https://bootcamp-art-portfolio-project-react.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
+                            <a href="https://nouveau-art-portfolio.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
                         </div>
                         <br />
                         <p className="acuminMid flex text-center text-white pb-10 px-10">

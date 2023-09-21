@@ -23,14 +23,16 @@ const GraphicDesignSlider = () => {
                 <div className="navigation-wrapper">
                     <div ref={sliderRef} className="keen-slider">
                         <div fill className="keen-slider__slide number-slide1 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/Graphic-Design/DreameaterLogo.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#462466" }}
-                            />
+                            <a href="/Design-Images/Graphic-Design/DreameaterLogo.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/Graphic-Design/DreameaterLogo.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#462466" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Logo Design for Dreameater Sake
@@ -38,14 +40,16 @@ const GraphicDesignSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide2 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/Graphic-Design/DreameaterHero.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#99f0e6" }}
-                            />
+                            <a href="/Design-Images/Graphic-Design/DreameaterHero.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/Graphic-Design/DreameaterHero.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#99f0e6" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Hero Image for Dreameater Sake
@@ -53,14 +57,16 @@ const GraphicDesignSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide3 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/Graphic-Design/SakeCanAll3.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#3a163e" }}
-                            />
+                            <a href="/Design-Images/Graphic-Design/SakeCanAll3.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/Graphic-Design/SakeCanAll3.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#3a163e" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Sake Can Mockup for Dreameater Sake
@@ -68,14 +74,16 @@ const GraphicDesignSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide4 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/Graphic-Design/MugMockup.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#3a163e" }}
-                            />
+                            <a href="/Design-Images/Graphic-Design/MugMockup.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/Graphic-Design/MugMockup.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#3a163e" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Mug Mockup for Dreameater Sake
@@ -83,14 +91,16 @@ const GraphicDesignSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide5 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/Graphic-Design/ShirtMockup.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#3a163e" }}
-                            />
+                            <a href="/Design-Images/Graphic-Design/ShirtMockup.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/Graphic-Design/ShirtMockup.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#3a163e" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     T-Shirt Mockup for Dreameater Sake
@@ -98,14 +108,16 @@ const GraphicDesignSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide6 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/Graphic-Design/SweetDreams.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#da7ee4" }}
-                            />
+                            <a href="/Design-Images/Graphic-Design/SweetDreams.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/Graphic-Design/SweetDreams.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#da7ee4" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Sweet Dreams Design for Dreameater Sake
@@ -113,14 +125,16 @@ const GraphicDesignSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide7 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/Graphic-Design/StrangeJourney.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#8272b7" }}
-                            />
+                            <a href="/Design-Images/Graphic-Design/StrangeJourney.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/Graphic-Design/StrangeJourney.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#8272b7" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Strange Journey Design for Dreameater Sake
@@ -128,14 +142,16 @@ const GraphicDesignSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide8 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/Graphic-Design/DarkNightmares.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#312d45" }}
-                            />
+                            <a href="/Design-Images/Graphic-Design/DarkNightmares.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/Graphic-Design/DarkNightmares.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#312d45" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Dark Nightmares Design for Dreameater Sake
@@ -143,14 +159,16 @@ const GraphicDesignSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide9 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/Graphic-Design/Abattoir.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#46b7ae" }}
-                            />
+                            <a href="/Design-Images/Graphic-Design/Abattoir.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/Graphic-Design/Abattoir.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#46b7ae" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Abattoir Poster Design Concept
@@ -158,14 +176,16 @@ const GraphicDesignSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide10 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/Graphic-Design/TheTelltaleHeart.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#6bc4df" }}
-                            />
+                            <a href="/Design-Images/Graphic-Design/TheTelltaleHeart.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/Graphic-Design/TheTelltaleHeart.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#6bc4df" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     TellTale Heart Poster Design Concept
@@ -173,14 +193,16 @@ const GraphicDesignSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide11 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/Graphic-Design/TheMasqueOfTheRedDeath.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#da4d5d" }}
-                            />
+                            <a href="/Design-Images/Graphic-Design/TheMasqueOfTheRedDeath.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/Graphic-Design/TheMasqueOfTheRedDeath.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#da4d5d" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Masque of the Red Death Poster Design Concept

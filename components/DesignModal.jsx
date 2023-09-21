@@ -51,7 +51,7 @@ const DesignModal = () => {
                     <br />
                     <div className="flex justify-center">
                         <p className="acuminMid flex text-center text-white pb-10 px-10">
-                            Welcome to my design page! Below are several different slideshows. To go to different slides, slide to the left or right, or select the arrows on the side.
+                            Welcome to my design page! Below are several different slideshows. To go to different slides, slide to the left or right, or select the arrows on the side. If you select an image, a larger version will open in a new tab.
                         </p>
                     </div>
                     <div className="flex-col">

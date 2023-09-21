@@ -23,14 +23,16 @@ const UiUxSlider = () => {
                 <div className="navigation-wrapper">
                     <div ref={sliderRef} className="keen-slider">
                         <div className="keen-slider__slide number-slide1 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/UiUx/NouveauPortfolioUiUx.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#88e0d9" }}
-                            />
+                            <a href="/Design-Images/UiUx/NouveauPortfolioUiUx.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/UiUx/NouveauPortfolioUiUx.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#88e0d9" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Mockup Design for Software Development and Design Portfolio Site
@@ -38,14 +40,16 @@ const UiUxSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide2 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/UiUx/ArtPortfolioDesign.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#e394f7" }}
-                            />
+                            <a href="/Design-Images/UiUx/ArtPortfolioDesign.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/UiUx/ArtPortfolioDesign.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#e394f7" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Mockup Design for Art Portfolio Website
@@ -53,14 +57,16 @@ const UiUxSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide3 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/UiUx/HypnodromeDesign.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#6bb4de" }}
-                            />
+                            <a href="/Design-Images/UiUx/HypnodromeDesign.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/UiUx/HypnodromeDesign.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#6bb4de" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Mockup Design for Hypnodrome Website
@@ -68,14 +74,16 @@ const UiUxSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide4 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/UiUx/DreameaterHifiDesign.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#89c2df" }}
-                            />
+                            <a href="/Design-Images/UiUx/DreameaterHifiDesign.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/UiUx/DreameaterHifiDesign.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#89c2df" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Mockup Design for Dreameater Sake Website
@@ -83,14 +91,16 @@ const UiUxSlider = () => {
                             </div>
                         </div>
                         <div className="keen-slider__slide number-slide5 flex-col object-contain">
-                            <Image
-                                src="/Design-Images/UiUx/DreameaterLofiWireframe.webp"
-                                width={0}
-                                height={0}
-                                sizes="100vw"
-                                className="object-contain image-modal"
-                                style={{ backgroundColor: "#deb3df" }}
-                            />
+                            <a href="/Design-Images/UiUx/DreameaterLofiWireframe.webp" target="_blank">
+                                <Image
+                                    src="/Design-Images/UiUx/DreameaterLofiWireframe.webp"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="object-contain image-modal"
+                                    style={{ backgroundColor: "#deb3df" }}
+                                />
+                            </a>
                             <div className="bg-white flex justify-center w-full h-full">
                                 <p className="acuminMid text-wrap text-2xl flex text-center justify-center text-grey px-2 py-2">
                                     Wireframe for Dreameater Sake Website

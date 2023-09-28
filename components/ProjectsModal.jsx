@@ -79,7 +79,7 @@ const ProjectsModal = () => {
                         </div>
                         <br />
                         <p className="acuminMid flex text-center text-white pb-10 px-10">
-                            This front end project is a website for a fake brand of sake. I made all of the graphics for it and designed the both Lo-fi and Hi-fi wireframes for it using AdobeXd. It was built with React.
+                            This front end project is a website for a fake brand of sake. I made all of the graphics for it and designed both the Lo-fi and Hi-fi wireframes for it using AdobeXd. It was built with React.
                         </p>
                     </div>
                     <div className="flex-col">

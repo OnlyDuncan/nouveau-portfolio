@@ -57,24 +57,24 @@ const DesignModal = () => {
                     <div className="flex-col">
                         <div className="flex justify-center">
                             <h2 className="sourceCode text-3xl text-center justify-center text-white">
-                                Graphic Design
-                            </h2>
-                        </div>
-                        <br />
-                        <div className="flex justify-center">
-                            <GraphicDesignSlider />
-                        </div>
-                    </div>
-                    <br />
-                    <div className="flex-col">
-                        <div className="flex justify-center">
-                            <h2 className="sourceCode text-3xl text-center justify-center text-white">
                                 UI/UX Design
                             </h2>
                         </div>
                         <br />
                         <div className="flex justify-center">
                             <UiUxSlider />
+                        </div>
+                    </div>
+                    <br />
+                    <div className="flex-col">
+                        <div className="flex justify-center">
+                            <h2 className="sourceCode text-3xl text-center justify-center text-white">
+                                Graphic Design
+                            </h2>
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <GraphicDesignSlider />
                         </div>
                     </div>
                     <br />

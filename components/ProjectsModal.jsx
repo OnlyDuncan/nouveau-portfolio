@@ -141,6 +141,37 @@ const ProjectsModal = () => {
                             This was made using React, Next, Tailwind, Material UI, and Redux. It's a portfolio website for artwork.
                         </p>
                     </div>
+                    <div className="flex-col">
+                        <div className="flex justify-center">
+                            <h2 className="sourceCode text-3xl text-center justify-center text-white">
+                                In the Cards
+                                <br />
+                                &#40;A Work In Progress&#41;
+                            </h2>
+                        </div>
+                        <br />
+                        {/* <div className="flex justify-center">
+                            <Image
+                                src="/Project-Images/ArtPortfolio.webp"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="project-image photo-frame"
+                                alt="Photo of Art Website"
+                            />
+                        </div>
+                        <br /> */}
+                        <div className="flex justify-center">
+                            <a href="https://github.com/OnlyDuncan/in-the-cards" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
+                        </div>
+                        <div className="flex justify-center">
+                            <a href="https://in-the-cards.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
+                        </div>
+                        <br />
+                        <p className="acuminMid flex text-center text-white pb-10 px-10">
+                            This is a full stack tarot card fortune telling web application that I am currently building using React, Next, Firebase-Firestore, and Tailwind. I still need to fix several errors involving data collection, optimize it for different screen sizes, and improve the styling. I also may add more tarot cards.
+                        </p>
+                    </div>
                 </div>
             </Modal>
         </div>

@@ -56,30 +56,31 @@ const ProjectsModal = () => {
                     <div className="flex-col">
                         <div className="flex justify-center">
                             <h2 className="sourceCode text-3xl text-center justify-center text-white">
-                                Dreameater Sake
+                                Art Portfolio Website
                             </h2>
                         </div>
                         <br />
                         <div className="flex justify-center">
                             <Image
-                                src="/Project-Images/Sake-Site.webp"
+                                src="/Project-Images/ArtPortfolio.webp"
                                 width={0}
                                 height={0}
                                 sizes="100vw"
                                 className="project-image photo-frame"
-                                alt="Photo of Sake Website"
+                                alt="Photo of Art Website"
                             />
                         </div>
                         <br />
                         <div className="flex justify-center">
-                            <a href="https://github.com/OnlyDuncan/Dream-Eater-Sake" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
+                            <a href="https://github.com/OnlyDuncan/nouveau-art-portfolio" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
                         </div>
                         <div className="flex justify-center">
-                            <a href="https://dream-eater-sake.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
+                            <a href="https://nouveau-art-portfolio.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
                         </div>
                         <br />
                         <p className="acuminMid flex text-center text-white pb-10 px-10">
-                            This front end project is a website for a fake brand of sake. I made all of the graphics for it and designed both the Lo-fi and Hi-fi wireframes for it using AdobeXd. It was built with React.
+                            This is a complete remake of a project my teammate Matthew and I made while taking several of NuCamps software engineering bootcamps in 2022.
+                            This was made using React, Next, Tailwind, Material UI, and Redux. It's a portfolio website for artwork.
                         </p>
                     </div>
                     <div className="flex-col">
@@ -114,31 +115,30 @@ const ProjectsModal = () => {
                     <div className="flex-col">
                         <div className="flex justify-center">
                             <h2 className="sourceCode text-3xl text-center justify-center text-white">
-                                Art Portfolio Website
+                                Dreameater Sake
                             </h2>
                         </div>
                         <br />
                         <div className="flex justify-center">
                             <Image
-                                src="/Project-Images/ArtPortfolio.webp"
+                                src="/Project-Images/Sake-Site.webp"
                                 width={0}
                                 height={0}
                                 sizes="100vw"
                                 className="project-image photo-frame"
-                                alt="Photo of Art Website"
+                                alt="Photo of Sake Website"
                             />
                         </div>
                         <br />
                         <div className="flex justify-center">
-                            <a href="https://github.com/OnlyDuncan/nouveau-art-portfolio" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
+                            <a href="https://github.com/OnlyDuncan/Dream-Eater-Sake" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
                         </div>
                         <div className="flex justify-center">
-                            <a href="https://nouveau-art-portfolio.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
+                            <a href="https://dream-eater-sake.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
                         </div>
                         <br />
                         <p className="acuminMid flex text-center text-white pb-10 px-10">
-                            This is a complete remake of a project my teammate Matthew and I made while taking several of NuCamps software engineering bootcamps in 2022.
-                            This was made using React, Next, Tailwind, Material UI, and Redux. It's a portfolio website for artwork.
+                            This front end project is a website for a fake brand of sake. I made all of the graphics for it and designed both the Lo-fi and Hi-fi wireframes for it using AdobeXd. It was built with React.
                         </p>
                     </div>
                     <div className="flex-col">

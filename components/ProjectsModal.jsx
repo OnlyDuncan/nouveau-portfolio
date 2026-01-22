@@ -83,7 +83,7 @@ const ProjectsModal = () => {
                             There are still things I intend to update involving optimization and styling, as well as new features I plan to add in the future.
                         </p>
                     </div>
-                    <div className="flex-col">
+                    {/* <div className="flex-col">
                         <div className="flex justify-center">
                             <h2 className="sourceCode text-3xl text-center justify-center text-white">
                                 Art Portfolio Website
@@ -112,7 +112,7 @@ const ProjectsModal = () => {
                             This is a complete remake of a project my teammate Matthew and I made while taking several of NuCamps software engineering bootcamps in 2022.
                             This was made using React, Next, Tailwind, Material UI, and Redux. It's a portfolio website for artwork.
                         </p>
-                    </div>
+                    </div> */}
                     <div className="flex-col">
                         <div className="flex justify-center">
                             <h2 className="sourceCode text-3xl text-center justify-center text-white">

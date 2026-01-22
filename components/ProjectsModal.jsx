@@ -72,10 +72,10 @@ const ProjectsModal = () => {
                         </div>
                         <br />
                         <div className="flex justify-center">
-                            <a href="https://github.com/OnlyDuncan/in-the-cards" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
+                            <a href="https://github.com/OnlyDuncan/social-dream-journaling-app" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
                         </div>
                         <div className="flex justify-center">
-                            <a href="https://in-the-cards.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
+                            <a href="https://social-dream-journaling-app.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
                         </div>
                         <br />
                         <p className="acuminMid flex text-center text-white pb-10 px-10">
@@ -135,10 +135,10 @@ const ProjectsModal = () => {
                         </div>
                         <br />
                         <div className="flex justify-center">
-                            <a href="https://github.com/OnlyDuncan/in-the-cards2.0" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
+                            <a href="https://github.com/OnlyDuncan/In-the-Cards-Reborn" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
                         </div>
                         <div className="flex justify-center">
-                            <a href="https://in-the-cards2.0.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
+                            <a href="https://in-the-cards-reborn-z345.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
                         </div>
                         <br />
                         <p className="acuminMid flex text-center text-white pb-10 px-10">

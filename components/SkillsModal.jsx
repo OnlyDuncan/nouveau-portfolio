@@ -239,13 +239,12 @@ const SkillsModal = () => {
                             />
                         </div>
                     </div>
-                    <p className="acuminMid flex text-center text-white px-10">
+                    {/* <p className="acuminMid flex text-center text-white px-10">
                         Below are copies of my software development focused resume, as well as my design focused resume:
-                    </p>
+                    </p> */}
                     <br />
                     <a href="/Resume/TechResume.pdf" target="_blank" className="acuminMid flex justify-center text-xl md:text-2xl text-center text-white underline pb-10">
-                        Software <br />
-                        Development Resume
+                        Resume
                     </a>
                     {/* <br /> */}
                     {/* <a href="/Resume/DesignResume.pdf" target="_blank" className="acuminMid flex justify-center text-xl md:text-2xl text-center text-white underline mb-10">

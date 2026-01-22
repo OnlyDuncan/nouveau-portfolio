@@ -50,7 +50,7 @@ const ProjectsModal = () => {
                     <br />
                     <div className="flex justify-center">
                         <p className="acuminMid flex text-center text-white pb-10 px-10">
-                            Welcome to my projects page! In addition to this website, which was built using React, Next, and Tailwind, some other projects I've worked on include:
+                            Welcome to my projects page! In addition to this website, which was built using React, Next, and Tailwind, and that I plan to improve the UI of soon, some other projects I've worked on include:
                         </p>
                     </div>
                     {/* <div className="flex-col">

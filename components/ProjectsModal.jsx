@@ -53,6 +53,39 @@ const ProjectsModal = () => {
                             Welcome to my projects page! In addition to this website, which was built using React, Next, and Tailwind, some other projects I've worked on include:
                         </p>
                     </div>
+                    {/* <div className="flex-col">
+                        <div className="flex justify-center">
+                            <h2 className="sourceCode text-3xl text-center justify-center text-white">
+                                Reverie
+                            </h2>
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <Image
+                                src="/Project-Images/Reverie.webp"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="project-image photo-frame"
+                                alt="Photo of Tarot App"
+                            />
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <a href="https://github.com/OnlyDuncan/in-the-cards" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
+                        </div>
+                        <div className="flex justify-center">
+                            <a href="https://in-the-cards.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
+                        </div>
+                        <br />
+                        <p className="acuminMid flex text-center text-white pb-10 px-10">
+                            This is a full stack dream journaling / social media app that I built using Next, TypeScript, MaterialUI, Prisma, and Supabase.
+                            It allows user to log in and share their dreams with others, as well as create private dreams. 
+                            There are certain design choices that I made to encourage natural exploration of the app and other users, rather than focusing on posts by friends or popular posts.
+                            It also has liking and friending features for those that would like to interact with others or collect dreams they resonate with.
+                            I plan to update the UI of this app soon and intend to add new features and optimizations in the future as well.
+                        </p>
+                    </div> */}
                     <div className="flex-col">
                         <div className="flex justify-center">
                             <h2 className="sourceCode text-3xl text-center justify-center text-white">
@@ -83,6 +116,36 @@ const ProjectsModal = () => {
                             There are still things I intend to update involving optimization and styling, as well as new features I plan to add in the future.
                         </p>
                     </div>
+                    {/* <div className="flex-col">
+                        <div className="flex justify-center">
+                            <h2 className="sourceCode text-3xl text-center justify-center text-white">
+                                In the Cards
+                            </h2>
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <Image
+                                src="/Project-Images/TarotApp2.0.webp"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                className="project-image photo-frame"
+                                alt="Photo of Tarot App 2.0"
+                            />
+                        </div>
+                        <br />
+                        <div className="flex justify-center">
+                            <a href="https://github.com/OnlyDuncan/in-the-cards2.0" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">GitHub Repository</a>
+                        </div>
+                        <div className="flex justify-center">
+                            <a href="https://in-the-cards2.0.vercel.app/" target="_blank" className="acuminMid text-xl md:text-2xl text-center text-white underline">Deployed App</a>
+                        </div>
+                        <br />
+                        <p className="acuminMid flex text-center text-white pb-10 px-10">
+                            This is a fortune telling web application that I built using Vue, Pinia, and Tailwind. It uses the OpenAI API to generate fortunes based off of tarot card spreads and user prompts.
+                            I am in the process of updating the UI and may add new features in the future.
+                        </p>
+                    </div> */}
                     {/* <div className="flex-col">
                         <div className="flex justify-center">
                             <h2 className="sourceCode text-3xl text-center justify-center text-white">

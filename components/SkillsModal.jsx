@@ -243,7 +243,7 @@ const SkillsModal = () => {
                         Below are copies of my software development focused resume, as well as my design focused resume:
                     </p>
                     <br />
-                    <a href="/Resume/TechResume.pdf" target="_blank" className="acuminMid flex justify-center text-xl md:text-2xl text-center text-white underline">
+                    <a href="/Resume/TechResume.pdf" target="_blank" className="acuminMid flex justify-center text-xl md:text-2xl text-center text-white underline pb-10">
                         Software <br />
                         Development Resume
                     </a>

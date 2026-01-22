@@ -244,13 +244,13 @@ const SkillsModal = () => {
                     </p>
                     <br />
                     <a href="/Resume/TechResume.pdf" target="_blank" className="acuminMid flex justify-center text-xl md:text-2xl text-center text-white underline">
-                        Tech and Software <br />
+                        Software <br />
                         Development Resume
                     </a>
-                    <br />
-                    <a href="/Resume/DesignResume.pdf" target="_blank" className="acuminMid flex justify-center text-xl md:text-2xl text-center text-white underline mb-10">
+                    {/* <br /> */}
+                    {/* <a href="/Resume/DesignResume.pdf" target="_blank" className="acuminMid flex justify-center text-xl md:text-2xl text-center text-white underline mb-10">
                         Design Resume
-                    </a>
+                    </a> */}
                 </div>
             </Modal>
         </div>

@@ -43,7 +43,7 @@ export default async function Home() {
             <h2
               className="text-3xl md:text-4xl flex text-center text-white acuminLight mb-4"
             >
-              Designer and Full-Stack Developer
+              Designer and Software Developer
             </h2>
             <br />
             <div className="flex relative h-full justify-center">
@@ -52,9 +52,9 @@ export default async function Home() {
                   <li className="mb-5 md:mb-0 md:mr-2">
                     <AboutModal />
                   </li>
-                  <li className="mb-5 md:mb-0 md:ml-2 md:mr-2">
+                  {/* <li className="mb-5 md:mb-0 md:ml-2 md:mr-2">
                     <DesignModal />
-                  </li>
+                  </li> */}
                   <li className="mb-5 md:mb-0 md:ml-2 md:mr-2">
                     <ProjectsModal />
                   </li>
